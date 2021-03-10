@@ -11,6 +11,7 @@ import Pluggable from 'plugins/pluggable';
 import SystemNotice from 'components/system_notice';
 import EditPostModal from 'components/edit_post_modal';
 
+import AppBar from 'components/app_bar/app_bar';
 import GetPublicLinkModal from 'components/get_public_link_modal';
 import LeavePrivateChannelModal from 'components/leave_private_channel_modal';
 import ResetStatusModal from 'components/reset_status_modal';
@@ -91,6 +92,7 @@ export default class ChannelController extends React.Component {
                     <LeavePrivateChannelModal/>
                     <ShortcutsModal isMac={Utils.isMac()}/>
                     <ModalController/>
+                    <AppBar/>
                 </div>
             </div>
         );

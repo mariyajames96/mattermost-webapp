@@ -1,0 +1,13 @@
+@import 'compass/utilities';
+@import 'compass/css3';
+
+.AppBar {
+    width: 56px;
+    height: 100%;
+    background: rgba(61, 60, 64, 0.04);;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}

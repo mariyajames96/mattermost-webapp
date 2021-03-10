@@ -150,7 +150,7 @@ export default class ChannelView extends React.PureComponent<Props, State> {
     }
 
     render() {
-        const {channelIsArchived} = this.props;
+        const {channelIsArchived, showAppBar} = this.props;
         if (this.props.showTutorial && !this.props.isCloud) {
             return (
                 <TutorialView
@@ -236,7 +236,7 @@ export default class ChannelView extends React.PureComponent<Props, State> {
             <div
                 ref={this.channelViewRef}
                 id='app-content'
-                className='app__content'
+                className='app__content app__bar'
             >
                 <FileUploadOverlay overlayType='center'/>
                 <ChannelHeader

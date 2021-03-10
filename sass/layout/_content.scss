@@ -60,6 +60,10 @@
     .channel__wrap & {
         padding-top: 0;
     }
+
+    &.app__bar {
+        margin-right: 56px;
+    }
 }
 
 #archive-link-home {

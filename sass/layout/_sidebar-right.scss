@@ -16,6 +16,10 @@
     &.move--left {
         @include single-transition(width, 0.25s, ease-in);
     }
+    
+    &.app__bar {
+        margin-right: 56px;
+    }
 
     &.sidebar--right--expanded {
         @include box-shadow(0px 8px 24px alpha-color($black, .24));
