@@ -1,0 +1,30 @@
+@import 'compass/utilities';
+@import 'compass/css3';
+
+.AppIcon {
+   padding-left: 16px;
+   padding-right: 16px;
+   padding-top: 20px;
+   padding-bottom: 0;
+   border: none;
+   background: transparent;
+   position: relative;
+
+   .AppBadge {
+        background-color: #145DBF;
+        border-radius: 8px;
+        color: #fff;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 1;
+        padding: 3px 5px;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        position: absolute;
+        top: 12px;
+        right: 7px;
+        border: 1px solid #FFFFFF;
+   }
+}
